@@ -1,0 +1,26 @@
+{
+  "name": "@freshaffiliates/track",
+  "version": "1.0.0",
+  "description": "Affiliate tracking pixel for FreshAffiliates — records clicks and conversions on merchant websites",
+  "license": "MIT",
+  "author": "FreshAffiliates",
+  "homepage": "https://github.com/your-org/freshaffiliates",
+  "keywords": ["affiliate", "tracking", "pixel", "conversion", "freshaffiliates"],
+
+  "main":    "dist/fa.cjs.js",
+  "module":  "dist/fa.esm.js",
+  "browser": "dist/fa.min.js",
+  "types":   "dist/index.d.ts",
+
+  "files": ["dist", "src"],
+
+  "scripts": {
+    "build": "node build.mjs",
+    "prepublishOnly": "npm run build"
+  },
+
+  "devDependencies": {
+    "esbuild": "^0.21.5",
+    "typescript": "^5.9.3"
+  }
+}

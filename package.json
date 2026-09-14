@@ -1,5 +1,5 @@
 {
-  "name": "afflo",
+  "name": "freshaffiliates",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ant-design/icons": "^6.2.2",
+    "@supabase/ssr": "^0.10.2",
+    "@supabase/supabase-js": "^2.105.1",
+    "@types/qrcode": "^1.5.6",
+    "antd": "^6.3.7",
+    "dayjs": "^1.11.20",
     "next": "16.2.4",
+    "qrcode": "^1.5.4",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
